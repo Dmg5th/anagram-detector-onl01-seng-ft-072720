@@ -11,7 +11,8 @@ class Anagram
     word_array.select |word|
     word.split("").sort == @word.split("").sort
 
-    
+end 
+end 
   end 
   
   
