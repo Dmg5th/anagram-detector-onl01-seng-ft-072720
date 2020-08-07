@@ -11,11 +11,10 @@ class Anagram
     if word.split("").sort == @word.split("").sort
       newarr.push(word)
     else 
-      
       end 
     end 
     newarr 
-  end 
+end 
   
   
   
