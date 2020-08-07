@@ -2,15 +2,14 @@ require 'pry'
 class Anagram
  attr_accessor :word 
  
- @@array 
- 
- def initialize(word)
+
+  def initialize(word)
    @word = word 
-   @array.push(word)
-  end 
+ end 
   
-  def match 
-    @@array.map |word|
+  def match(word_array)
+    word_array
+
     
   end 
   
